@@ -6,10 +6,19 @@
 }
 
 @media only screen and(max-width: 768px) {
-    .container{
-      width: 100%;
-      max-width: 647px;
-      margin: 0 auto;
-      padding:0 20px;
-    }
+  .container{
+    width: 100%;
+    max-width: 607px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and(max-width: 510px) {
+  .container{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }

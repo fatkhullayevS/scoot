@@ -1,0 +1,124 @@
+.city{
+    padding: 0 165px;
+   position: relative;
+
+   &__left{
+       display: flex;
+       align-items: center;
+       margin: 0 auto;
+   }
+
+   &__heading{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       font-family: 'Space Mono';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 48px;
+       line-height: 48px;
+       letter-spacing: -2.14286px;
+       color: #495567;
+       width: 445px;
+       margin-left: 750px;
+       margin-top: 1200px;
+       margin-bottom: 24px;
+   }
+
+   &__desc{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       font-family: 'Lexend Deca';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 15px;
+       line-height: 25px;
+       color: #939CAA;
+       max-width: 445px;
+       margin-top: 1450px;
+       margin-left: 750px;
+   }
+
+   &__img{
+       position: absolute;
+       margin-top: 1500px;
+       margin-right: 600px;
+   }
+
+   &__btn{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       background: #FCB72B;
+       padding: 14px 39px;
+       text-decoration: none;
+       font-family: 'Space Mono';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       border: 3px solid transparent;
+       width: 200px;
+       height: 53px;
+       margin-top: 1700px;
+       margin-left: 750px;
+
+
+       &:hover{
+       border: 3px solid #FCB72B;
+       background-color: transparent;
+       color: #FCB72B;
+       transition: all 0.2s;
+       }
+   }
+}
+
+@media only screen and(max-width: 768px) {
+    .city{
+
+        &__img{
+            margin-top: 2200px;
+            margin-left: -180px;
+        }
+
+        &__heading{
+            margin: 0;
+            padding: 0;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            margin-top: 2800px;
+            margin-left: -40px;
+        }
+
+        &__desc{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #939CAA;
+            width: 573px;
+            margin-top: 3050px;
+            margin-left: -40px;
+        }
+
+        &__btn{
+            box-sizing: border-box;
+            margin-top: 3250px;
+            margin-left: 80px;
+        }
+
+    }
+}

@@ -1,32 +1,31 @@
 .site-btn{
-    font-family: 'space mono';
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 14px 39px;
     background: #FCB72B;
-    border: 3px solid #FCB72B;
+    padding: 14px 39px;
+    text-decoration: none;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+border: 3px solid transparent;
+margin-bottom: 24px;
+margin-right: 165px;
 
 
-    &:hover{
-        opacity: 0.8;
-        transition: all 0.4s;
-    }
-
-    &:active{
-        transition: all 0.4s;
-        background-color: transparent;
-        border: 3px solid #FCB72B;
-        color: #FCB72B;
-    }
+&:hover{
+border: 3px solid #FCB72B;
+background-color: transparent;
+color: #FCB72B;
+transition: all 0.2s;
 }
 
-@media only screen and(max-width: 768px) {
+}
+
+@media only screen and(max-width: 1402px) {
     .site-btn{
-        width: 180px;
-        height: 53px;
+        margin: 0 auto;
+        margin-left: -340px;
     }
 }

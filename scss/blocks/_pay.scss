@@ -1,0 +1,121 @@
+.pay{
+    padding: 0 165px;
+   position: relative;
+
+   &__left{
+       display: flex;
+       align-items: center;
+       margin: 0 auto;
+   }
+
+   &__heading{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       font-family: 'Space Mono';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 48px;
+       line-height: 48px;
+       letter-spacing: -2.14286px;
+       color: #495567;
+       width: 445px;
+    //    margin-left: 165px;
+       margin-top: 2600px;
+       margin-bottom: 24px;
+   }
+
+   &__desc{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       font-family: 'Lexend Deca';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 15px;
+       line-height: 25px;
+       color: #939CAA;
+       max-width: 445px;
+       margin-top: 2850px;
+       // margin-left:  -440px;
+       // padding-left: 150px;
+   }
+
+   &__img{
+       position: absolute;
+       margin-top: 2800px;
+       margin-left: 600px;
+   }
+
+   &__btn{
+       position: absolute;
+       margin: 0;
+       padding: 0;
+       background: #FCB72B;
+       padding: 14px 39px;
+       text-decoration: none;
+       font-family: 'Space Mono';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       border: 3px solid transparent;
+       width: 200px;
+       height: 53px;
+       margin-top: 3100px;
+
+
+       &:hover{
+       border: 3px solid #FCB72B;
+       background-color: transparent;
+       color: #FCB72B;
+       transition: all 0.2s;
+       }
+   }
+}
+
+@media only screen and(max-width: 768px) {
+        .pay{
+
+            &__img{
+                margin-top: 3900px;
+               margin-left: -80px;
+            }
+
+            &__heading{
+                content: "";
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                text-align: center;
+                letter-spacing: -2.14286px;
+                color: #495567;
+                margin-top: 4550px;
+                margin-left: -80px;
+            }
+
+            &__desc{
+                margin: 0;
+                padding: 0;
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #939CAA;
+                margin-top: 4800px;
+                margin-left: -80px;
+            }
+
+            &__btn{
+                margin-top: 5000px;
+                margin-left: 50px;
+            }
+
+        }
+}
